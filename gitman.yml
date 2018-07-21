@@ -1,0 +1,53 @@
+location: src
+sources:
+
+# Fetch Robot Includes
+- name: fetch_ros
+  repo: 'https://github.com/fetchrobotics/fetch_ros.git'
+  rev: dd51b5f211251156262f39e48860558df5a99290
+- name: robot_controllers
+  repo: 'https://github.com/fetchrobotics/robot_controllers.git'
+  rev: 173c43452b04f644f6a7b4bf4d4a0498d6897532
+
+
+# GraspIt! ROS Packages
+- name: graspit_interface
+  repo: 'https://github.com/graspit-simulator/graspit_interface.git'
+  rev: c716a50ec854086fe41e75bbdc625d2801983ea0
+- name: graspit_commander
+  repo: 'https://github.com/graspit-simulator/graspit_commander.git'
+  rev: caf0d3717d96832dd4e74e56ff5994477c068e4c
+
+
+# Scene
+- name: world_manager
+  repo: 'http://github.com/CRLab/world_manager.git'
+  rev: master
+
+- name: reachability_analyzer
+  repo: 'http://github.com/CRLab/reachability_analyzer.git'
+  rev: ik_collision
+
+
+# Reachability Packages
+- name: reachability_space_generation
+  repo: 'http://github.com/CRLab/reachability_space_generation.git'
+  rev: master
+
+- name: reachability_utils
+  repo: 'http://github.com/CRLab/reachability_utils.git'
+  rev: master
+
+- name: reachability_energy_plugin
+  repo: 'http://github.com/CRLab/reachability_energy_plugin.git'
+  rev: master
+
+- name: fetch_reachability_config
+  repo: 'http://github.com/CRLab/fetch_reachability_config.git'
+  rev: master
+
+
+# Object Pickup Demo
+- name: reachability_grasping_demo
+  repo: 'http://github.com/CRLab/reachability_grasping_demo.git'
+  rev: master
